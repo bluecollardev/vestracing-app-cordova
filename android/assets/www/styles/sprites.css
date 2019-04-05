@@ -1,0 +1,135 @@
+﻿a.sprite, button.sprite, button.nav, button.tree { background-color: transparent; background-repeat: no-repeat; padding: 0px; border: 0 none transparent; outline: none; background-image: url('../Images/sprites.png'); text-align: right; font-size: 14px }
+button.nav { width: 72px; height: 72px; background-image: url('../Images/nav-sprites.png'); margin-left: 12px; margin-right: 12px }
+a.nav { display: inline-block; background-color: transparent; background-repeat: no-repeat; padding: 0px; border: 0 none transparent; outline: none; width: 72px; height: 72px; background-image: url('../Images/nav-sprites.png'); margin-left: 12px; margin-right: 12px; text-align: right}
+button.sprite.link { text-decoration: inherit }
+button.sprite.text { padding-left: 30px }
+button.sprite.link:hover, button.sprite.link:focus, button.sprite.focus.link, button.sprite.link:active, button.sprite.link.active { text-decoration: underline }
+
+.sprite { background-color: transparent; background-repeat: no-repeat; padding: 0px; border: 0 none transparent; outline: none; background-image: url('../Images/sprites.png'); text-align: right; font-size: 14px; -webkit-box-sizing: border-box !important; -moz-box-sizing: border-box !important; box-sizing: border-box !important; }
+.sprite.link { text-decoration: inherit }
+.sprite.text { padding-left: 30px }
+.sprite.link:hover, .sprite.link:focus, .sprite.focus.link, .sprite.link:active, .sprite.link.active { text-decoration: underline }
+
+/* set up the different nav buttons */
+button.nav-rate, a.nav-rate { background-position: 0 0 }
+button.nav-rate:hover, button.nav-rate:focus, button.nav-rate.focus, a.nav-rate:hover, a.nav-rate:focus, a.nav-rate.focus { background-position: 0 -75px }
+button.nav-rate:active, button.nav-rate.active, a.nav-rate:active, a.nav-rate.active { background-position: 0 -150px }
+
+button.nav-autoplus, a.nav-autoplus { background: #005496 }
+button.nav-autoplus:hover, button.nav-autoplus:focus, button.nav-autoplus.focus, a.nav-autoplus:hover, a.nav-autoplus:focus, a.nav-autoplus.focus { background: #5DBBFF }
+button.nav-autoplus:active, button.nav-autoplus.active, a.nav-autoplus:active, a.nav-autoplus.active { background: #575757 }
+
+button.nav-generate, a.nav-generate { background-position: -75px 0 }
+button.nav-generate:hover, button.nav-generate:focus, button.nav-generate.focus, a.nav-generate:hover, a.nav-generate:focus, a.nav-generate.focus { background-position: -75px -75px }
+button.nav-generate:active, button.nav-generate.active, a.nav-generate:active, a.nav-generate.active { background-position: -75px -150px }
+
+button.nav-activate, a.nav-activate { width: 71px; background-position: -150px 0 }
+button.nav-activate:hover, button.nav-activate:focus, button.nav-activate.focus, a.nav-activate:hover, a.nav-activate:focus, a.nav-activate.focus { background-position: -150px -75px }
+button.nav-activate:active, button.nav-activate.active, a.nav-activate:active, a.nav-activate.active { background-position: -150px -150px }
+
+button.nav-issue, a.nav-issue { width: 71px; background-position: -224px 0 }
+button.nav-issue:hover, button.nav-issue:focus, button.nav-issue.focus, a.nav-issue:hover, a.nav-issue:focus, a.nav-issue.focus { background-position: -224px -75px }
+button.nav-issue:active, button.nav-issue.active, a.nav-issue:active, a.nav-issue.active { background-position: -224px -150px }
+
+/* set up each of the different sprites */
+button.sprite-plus { min-width: 19px; min-height: 19px; background-position: 0 0; color: #575757 }
+button.sprite-plus:hover, button.sprite-plus:focus, button.sprite-plus.focus { background-position: 0 -19px; color: #5dbbff }
+button.sprite-plus:active, button.sprite-plus.active { background-position: 0 -38px; color: #333333 }
+button.sprite-plus-disabled { min-width: 19px; min-height: 19px; background-position: -19px 0px; color: #575757; }
+
+button.sprite-plus-white { min-width: 19px; height: 19px; background-position: -3px -517px; color: #ffffff; background-color: transparent }
+button.sprite-plus-white:hover, button.sprite-plus-white:focus, button.sprite-plus-white.focus { background-position: -3px -539px; color: #5dbbff }
+button.sprite-plus-white:active, button.sprite-plus-white.active { background-position: -3px -561px; color: #575757 }
+button.sprite.sprite-plus-white.text { padding: 5px 5px 5px 27px }
+button.sprite-plus-white.border { border: 1px solid #fff }
+button.sprite-plus-white.border:hover, button.sprite-plus-white.border:focus, button.sprite-plus-white.focus.border { border: 1px solid #5dbbff }
+button.sprite-plus-white.border:active, button.sprite-plus-white.active.border { border: 1px solid #575757 }
+
+button.sprite-open { min-width: 19px; min-height: 19px; background-position: -28px -540px; color: #575757 }
+button.sprite-open:hover, button.sprite-open:focus, button.sprite-open.focus { background-position: -28px -562px; color: #5dbbff }
+button.sprite-open:active, button.sprite-open.active { background-position: -28px -584px; color: #333333 }
+button.sprite-open-disabled { min-width: 19px; min-height: 19px; background-position: -28px -606px; color: #575757; }
+
+button.sprite-house { min-width: 30px; height: 39px; background-position: 0 -580px; color: #8d8d8d; background-color: transparent }
+button.sprite-house:hover, button.sprite-house:focus, button.sprite-house.focus { background-position: 0 -609px; color: #fff; background-color: #5dbbff }
+button.sprite-house:active, button.sprite-house.active { background-position: 0 -638px; color: #575757; background-color: #5dbbff }
+button.sprite.sprite-house.text { padding: 3px 5px 3px 33px; text-align: left; font-size: 13px }
+button.sprite-house.border { border: 1px solid #8d8d8d }
+button.sprite-house.border:hover, button.sprite-house.border:focus, button.sprite-house.focus.border, button.sprite-house.border:active, button.sprite-house.active.border { border: 1px solid #5dbbff }
+
+button.sprite-car { min-width: 32px; height: 39px; background-position: 0 -668px; color: #8d8d8d; background-color: transparent }
+button.sprite-car:hover, button.sprite-car:focus, button.sprite-car.focus { background-position: 0 -697px; color: #fff; background-color: #5dbbff }
+button.sprite-car:active, button.sprite-car.active { background-position: 0 -726px; color: #575757; background-color: #5dbbff }
+button.sprite.sprite-car.text { padding: 3px 5px 3px 35px; text-align: left; font-size: 13px }
+button.sprite-car.border { border: 1px solid #8d8d8d }
+button.sprite-car.border:hover, button.sprite-car.border:focus, button.sprite-car.focus.border, button.sprite-car.border:active, button.sprite-car.active.border { border: 1px solid #5dbbff }
+
+button.sprite-close { min-width: 17px; height: 17px; background-position: -38px 0 }
+button.sprite-close:hover, button.sprite-close:focus, button.sprite-close.focus { background-position: -38px -19px }
+button.sprite-close:active, button.sprite-close.active { background-position: -38px -38px }
+
+.sprite-delete { min-width: 14px; height: 15px; background-position: -74px -1px }
+.sprite-delete:hover, .sprite-delete:focus, .sprite-delete.focus { background-position: -74px -20px }
+.sprite-delete:active, .sprite-delete.active { background-position: -74px -38px }
+
+button.sprite-save { min-width: 27px; height: 27px; padding: 5px 5px 5px; background-position: 0 -56px; color: #8d8d8d; background-color: transparent }
+button.sprite-save:hover, button.sprite-save:focus, button.sprite-save.focus { background-position: 0 -78px; color: #ffffff; background-color: #5dbbff }
+button.sprite-save:active, button.sprite-save.active { background-position: 0 -78px; color: #FFF; background-color: #575757 }
+button.sprite-save.border { border: 1px solid #8d8d8d }
+button.sprite-save.border:hover, button.sprite-save.border:focus, button.sprite-save.focus.border { border: 1px solid #5dbbff }
+button.sprite-save.border:active, button.sprite-save.active.border { border: 1px solid #575757 }
+
+button.sprite-plus-large { min-width: 27px; height: 27px; padding: 5px; background-position: 0 -124px; color: #8c8c8c; background-color: #FFF }
+button.sprite-plus-large:hover, button.sprite-plus-large:focus, button.sprite-plus-large.focus { background-position: 0 -149px; color: #FFF; background-color: #5DBBFF }
+button.sprite-plus-large:active, button.sprite-plus-large.active { background-position: 0 -149px; background-color: #575757 }
+button.sprite-plus-large.border { border: 1px solid #8c8c8c }
+button.sprite-plus-large.border:hover, button.sprite-plus-large.border:focus, button.sprite-plus-large.focus.border { border: 1px solid #5dbbff }
+button.sprite-plus-large.border:active, button.sprite-plus-large.active.border { border: 1px solid #575757 }
+
+button.sprite-launchpad { min-width: 114px; height: 27px; background-position: 0 -202px; background-color: transparent }
+button.sprite-launchpad:hover, button.sprite-launchpad:focus, button.sprite-launchpad.focus { background-position: 0 -231px }
+button.sprite-launchpad:active, button.sprite-launchpad.active { background-position: 0 -260px }
+
+button.sprite-next { min-width: 48px; height: 48px; background-position: 0 -291px; background-color: transparent }
+button.sprite-next:hover, button.sprite-next:focus, button.sprite-next.focus { background-position: 0 -341px }
+button.sprite-next:active, button.sprite-next.active { background-position: 0 -391px }
+
+button.sprite-prev { min-width: 48px; height: 48px; background-position: -50px -291px; background-color: transparent }
+button.sprite-prev:hover, button.sprite-prev:focus, button.sprite-prev.focus { background-position: -50px -341px }
+button.sprite-prev:active, button.sprite-prev.active { background-position: -50px -391px }
+
+button.sprite-trash { min-width: 20px; height: 20px; background-position: -3px -496px; background-color: transparent }
+button.sprite-trash:hover, button.sprite-trash:focus, button.sprite-trash.focus { background-position: -24px -496px }
+button.sprite-trash:active, button.sprite-trash.active { background-position: -45px -496px }
+
+button.sprite-select-all { width: 15px; height: 20px; background-position: 0 -441px; background-color: transparent }
+
+button.tree { width: 10px; height: 11px; background-image: url('../Images/sprites-tree.png'); margin-left: 2px; margin-right: 4px }
+
+button.tree-open.dark { min-width: 10px; height: 11px; background-position: 0px 0px; background-color: transparent }
+button.tree-open.dark:hover, button.tree-closed-dark:focus { background-position: -22px 0px }
+button.tree-open.dark:active { background-position: -0px 0px }
+
+button.tree-open.medium { min-width: 10px; height: 11px; background-position: -11px 0px; background-color: transparent }
+button.tree-open.medium:hover, button.tree-closed-light:focus { background-position: -22px 0px }
+button.tree-open.medium:active { background-position: -11px 0px }
+
+button.tree-open.light { min-width: 10px; height: 11px; background-position: -11px 0px; background-color: transparent }
+button.tree-open.light:hover, button.tree-closed-light:focus { background-position: -22px 0px }
+button.tree-open.light:active { background-position: -11px 0px }
+
+button.tree-closed.dark { min-width: 10px; height: 14px; background-position: 0px -11px; background-color: transparent }
+button.tree-closed.dark:hover, button.tree-closed-dark:focus { background-position: -22px -11px }
+button.tree-closed.dark:active { background-position: -0px -11px }
+
+button.tree-closed.medium { min-width: 10px; height: 14px; background-position: -11px -11px; background-color: transparent }
+button.tree-closed.medium:hover, button.tree-closed-light:focus { background-position: -22px -11px }
+button.tree-closed.medium:active { background-position: -11px -11px }
+
+button.tree-closed.light { min-width: 10px; height: 14px; background-position: -11px -11px; background-color: transparent }
+button.tree-closed.light:hover, button.tree-closed-light:focus { background-position: -22px -11px }
+button.tree-closed.light:active { background-position: -11px -11px }
+
+button.tree-closed.light { min-width: 10px; height: 14px; background-position: -11px -11px; background-color: transparent }
+button.tree-closed.light:hover, button.tree-closed-light:focus { background-position: -22px -11px }
+button.tree-closed.light:active { background-position: -11px -11px }

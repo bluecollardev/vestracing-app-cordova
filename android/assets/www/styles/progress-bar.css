@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#UpdateProgressPopup  { 
+	background: #f2f7fb;
+}
+
+.ui-dialog {
+	background: #f2f7fb;
+}
+
+div#UpdateProgressPopup div, div#CreateNewProgress div { 
+	background: #f2f7fb; 
+	/*border: 1px solid #cbdce8; */
+	color: #000; 
+	position:relative;
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px; 
+	border-radius: 12px; 
+	-webkit-background-clip: padding-box;
+	filter:alpha(opacity=70);
+	opacity:0.7px;
+}
+
+div#UpdateProgressPopup h1, div#CreateNewProgress h1 { 
+	color: #000; 
+	font-size: 20px; 
+	text-align: left; 
+	margin: 10px 15px 30px; 
+}
+
+div#UpdateProgressPopup p { 
+	font-size: 14px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#UpdateProgressPopup p.progress-grid-1, div#CreateNewProgress p.progress-grid-1 {
+    float: left;
+	padding: 26px 10px 0 40px;
+	margin: 0;
+}
+
+div#UpdateProgressPopup div.progress-grid-2, div#CreateNewProgress div.progress-grid-2 {
+    margin: 29px 0 0 75px;
+}
+
+/* JQuery UI Custom Override
+*/
+div#UpdateProgressPopup .ui-widget-overlay {
+    opacity: 0.5;
+}
