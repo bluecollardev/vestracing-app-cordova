@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'KozGoPro-Light-AlphaNum';
+  src: url('KozGoPro-Light-AlphaNum.eot?#iefix') format('embedded-opentype'),  url('KozGoPro-Light-AlphaNum.otf')  format('opentype'),
+	     url('KozGoPro-Light-AlphaNum.woff') format('woff'), url('KozGoPro-Light-AlphaNum.ttf')  format('truetype'), url('KozGoPro-Light-AlphaNum.svg#KozGoPro-Light-AlphaNum') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

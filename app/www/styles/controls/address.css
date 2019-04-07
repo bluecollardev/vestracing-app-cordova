@@ -1,0 +1,7 @@
+﻿.rural-address-disabled { display: none }
+.rural-address-enabled { display: inline }
+.civic-section-and-address-preview { padding-top:12px }
+.address-preview { float: right; font-size: 0.85em}
+.address-preview-box { margin-top:24px; padding: 5px; vertical-align: top; width: 150px; height: 75px; border: 1px solid #D5D5D5; }
+.address-preview-heading { overflow:hidden; white-space:nowrap; margin-bottom: 12px; }
+.address-preview-content { overflow:hidden; white-space:nowrap; padding-left: 5px }
