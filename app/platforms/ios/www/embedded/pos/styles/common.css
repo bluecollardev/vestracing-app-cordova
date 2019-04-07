@@ -1,0 +1,67 @@
+﻿#middle-pane {
+	
+}
+
+/* JQUERY UI OVERRIDES  
+----------------------------------------------------------*/
+.ui-widget .ui-widget-content{ font-family:"Lucida Grande", Arial, Helvetica, Verdana, sans-serif;color:#8c8c8c }
+.ui-tabs .ui-tabs-nav { background-image:none; background-color:transparent; border-style:none; padding-left:0px; font-size:18px }
+.ui-tabs .ui-tabs-nav .ui-state-default, .ui-tabs .ui-tabs-nav .ui-state-default a, .ui-tabs .ui-tabs-nav .ui-state-default a:link, .ui-tabs .ui-tabs-nav .ui-state-default a:visited { border:0px none transparent; background-image:none; background-color:transparent; color:#bebebe }
+.ui-tabs .ui-tabs-nav .ui-state-hover, .ui-tabs .ui-tabs-nav .ui-state-hover a, .ui-tabs .ui-tabs-nav .ui-state-hover a:link, .ui-tabs .ui-tabs-nav .ui-state-hover a:visited { text-decoration:none; color:#575757 }
+.ui-tabs .ui-tabs-nav .ui-tabs-selected, .ui-tabs .ui-tabs-nav .ui-tabs-selected a, .ui-tabs .ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs .ui-tabs-nav .ui-tabs-selected a:visited { color:#3a7eb4; text-decoration:none; background-color:transparent; border-bottom:3px solid #3a7eb4 }
+.ui-tabs .ui-tabs-nav li a { padding-left:0px; padding:12px 0px 1px 0px; margin-right:22px }
+
+.secondary .ui-tabs-nav .ui-state-default, .secondary .ui-tabs-nav .ui-state-default a, .secondary .ui-tabs-nav .ui-state-default a:link, .secondary .ui-tabs-nav .ui-state-default a:visited { font-size:15px }
+.secondary .ui-tabs-nav .ui-state-hover, .secondary .ui-tabs-nav .ui-state-hover a, .secondary .ui-tabs-nav .ui-state-hover a:link, .secondary .ui-tabs-nav .ui-state-hover a:visited { text-decoration:none; font-size:15px }
+.secondary .ui-tabs-nav .ui-tabs-selected, .secondary .ui-tabs-nav .ui-tabs-selected a, .secondary .ui-tabs-nav .ui-tabs-selected a:link, .secondary .ui-tabs-nav .ui-tabs-selected a:visited { text-decoration:none; font-size:15px; border-bottom:none }
+.secondary .ui-tabs-nav li a { padding-left:0px; padding:0px; margin-right:24px }
+
+.ui-tabs.ui-corner-all { border:0 none transparent; overflow:visible }
+.ui-tabs .ui-tabs-panel { padding:1em 0 }
+
+/*.ui-state-disabled { display:none }*/
+.ui-datepicker-trigger { padding-left:5px }
+.ui-widget-header{ border:1 px solid #575757; background:#f1f1f1 ;color:#575757;font-weight:normal;font-size:16px; margin:0; padding:0 }
+.ui-widget{ font-family:"Lucida Grande", Arial, Helvetica, Verdana, sans-serif }
+/* BUTTONS
+----------------------------------------------------------*/
+.save-button { background-color:transparent; background-image:none; border-style:none; padding:0 12px 0 0; float:right }
+.save-button span img { float:left }
+.save-button span div { float:left; margin-top:15px }
+.save-button:hover span div { text-decoration:underline }
+
+/* DIALOG
+----------------------------------------------------------*/
+.general-dialog { }
+.general-dialog img { float:left; padding:26px 20px 0 15px; margin:0; position:relative }
+.general-dialog #GeneralDialogText { font-size:20px; font-family:Arial, Helvetica, sans-serif; padding:28px 15px 0 0; color:#575757 }
+
+
+/* DARK BOX - draw attention to input fields
+----------------------------------------------------------*/
+.dark-box { background-color:#ffffff; overflow:auto; margin-right:0px; padding-right:0px; clear:both }
+.dark-box.border { border:1px solid #5dbbff; padding:0px 8px 0px 8px }
+.dark-box .title { background-color:#eeeeee; display:block; width:100%; padding:5px 0 }
+
+.full-width { width:100% }
+
+.button  
+{
+    padding:0px; 
+    border:0 none transparent; 
+    outline:none; 
+    text-align:center;
+    padding:3px 10px 3px 10px; 
+    color:#8c8c8c; 
+    background-color:transparent; 
+    font-size:13px;
+    border:1px solid #8c8c8c;
+    vertical-align:inherit;
+}
+.button:hover, button:focus, button.focus { color:#ffffff; background-color:#5dbbff; border:1px solid #5dbbff }
+.button:active, button.active { background-color:#575757; border:1px solid #575757 }
+.button.border { border:1px solid #8c8c8c }
+.button.border:hover, button.border:focus, button.focus.border { border:1px solid #5dbbff }
+.button.border:active, button.active.border { border:1px solid #575757 }
+
+.placeholder { color:#aaaaaa }
