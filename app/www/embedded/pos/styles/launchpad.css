@@ -1,0 +1,52 @@
+﻿body {}
+h3 { font-size:24px; color: #FFFFFF; }
+h3.header { color: #000000; margin-bottom: 20px; }
+li { text-decoration: none; list-style:none; }
+
+.detail-heading { display: block; position: relative; padding: 0; border: 1px solid green }
+.detail-heading span { font-size: 20pt; color: #8d8d8d }
+.detail-heading input.text { width: 328px; vertical-align: text-bottom; padding-right: 22px }
+.detail-heading input.button, detail-heading button.button { position: relative; height: 21px; padding: 2px 0 0 }
+
+.recent { margin-bottom: 12px }
+.recent h3 { font-size: 20pt; color: #fff; margin-bottom: 6px }
+.recent table { width: 270px; font-size: 12pt; text-align: left }
+.recent table tbody tr td { width: 135px; padding-left: 12px }
+.recent table tbody tr.even { background-color: transparent }
+.recent table tbody tr.odd { background-color: #3c84bd }
+.recent a:link, .recent a:visited, .recent a:active, .recent a:hover { color: #fff }
+
+.internet { }
+.internet h3 { font-size: 20pt; color: #fff; margin-bottom: 6px }
+.internet ul { width: 270px; font-size: 12pt; text-align: left; padding: 0; margin: 0 }
+.internet ul li { padding-left: 12px }
+.internet ul li.even { background-color: transparent }
+.internet ul li.odd { background-color: #3c84bd }
+.internet a:link, .internet a:visited, .internet a:active, .internet a:hover { color: #fff }
+
+.search-results-table { margin-top: 12px; width: 600px; }
+.search-results-table a:link, .search-results-table a:visited, .search-results-table a:active, .search-results-table a:hover { text-decoration: none; color: #8d8d8d }
+.search-results-table tbody tr { background-color: #575757; border-left: 1px solid #575757; border-right: 1px solid #575757 }
+.search-results-table tbody tr.row { background-color: #fff }
+.search-results-table tbody tr.alt-row { background-color: #f2f2f2 }
+.search-results-table tbody tr:hover.row td, .search-results-table tbody tr:hover.alt-row td { background-color: #c0c0c0; color: #ffffff; }
+.search-results-table tbody tr.selected-row, .search-results-table tbody tr.selected-row td { background-color: #8d8d8d; color: #ffffff; }
+.search-results-table tbody tr th { color: #fff; text-align: left; padding: 6px 6px 0 6px; font-size: 12pt; font-weight: bold; }
+.search-results-table tbody tr td { color: #8d8d8d; text-align: left; padding: 6px; font-size: 12pt }
+.search-results-table tbody tr.pager { background-color: #fff; border-top: 1px solid #8d8d8d; border-left: 0 none; border-right: 0 none }
+.search-results-table tbody tr.pager td table { float: right }
+.search-results-table tbody tr.pager td table tbody tr { background-color: transparent; border: 0 none }
+.search-results-table tbody tr.pager td table tbody tr td { padding: 6px 3px; background-color: transparent; font-size: 10pt }
+.search-results-table tbody tr.pager td table tbody tr td span, .search-results-table tbody tr.pager td table tbody tr td a { display: block; width: 17px; height: 17px; background-color: #f2f2f2; color: #8d8d8d; border: 1px solid #8d8d8d; text-align: center; padding: 2px 0 0 }
+.search-results-table tbody tr.pager td table tbody tr td span.selected, .search-results-table tbody tr.pager td table tbody tr td a.selected { background-color: #8d8d8d; color: #f2f2f2 }
+
+.search-tabs { padding-left: 10px; }
+.search-tabs table { margin-top: 10px; }
+.search-tabs table td { height: 40px; }
+.search-tabs table td.spacer { width: 30px; }
+.search-tabs table td.label { padding-right: 22px; }
+
+.hidden { display: none; }
+
+.feedback { position: absolute; bottom: 0px; }
+.feedback a { font-size: 12pt; color: #FFFFFF; }

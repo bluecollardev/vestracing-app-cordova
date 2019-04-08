@@ -1,0 +1,7 @@
+<!-- Template defintion and nothing else in the file -->
+<script type="text/x-kendo-template" id="country-item-template">
+	<div class="product country" data-country="${name}" data-id="${country_id}">
+		<div class="flag" style="background-image: url(#= App.getRootWebsitePath() + '/../public/images/geo/flags_style1_large/' + name.replace(/\s/g, '_').replace(/\&/, 'and') #.png)"></div>
+		<h4 class="title">${name}</h4>
+	</div>
+</script>

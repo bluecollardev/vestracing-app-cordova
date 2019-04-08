@@ -1,0 +1,6 @@
+﻿fieldset.login label, fieldset.register label, fieldset.changePassword label { display: block; }
+
+.logindisplay { font-size: 1.0em; display: block; text-align: right; padding: 12px; color: White }
+.logindisplay a:link { color: white }
+.logindisplay a:visited { color: white }
+.logindisplay a:hover { color: white }
